@@ -5,8 +5,7 @@ const logoImage = document.querySelector(".logo img");
 menuBtn.addEventListener("click", function() {
     menuBtn.classList.toggle("active");
     nav.classList.toggle("active");
-}
-)
+})
 
 window.addEventListener("scroll", function() {
     if(this.window.pageYOffset > 4) {
@@ -14,5 +13,4 @@ window.addEventListener("scroll", function() {
     } else {
         nav.classList.remove("scrolled");
     }
-}
-)
+} )

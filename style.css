@@ -53,7 +53,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(jiji/20211124_055638.jpg);
+  background: url('./Jiji/pinkabstract.jpg');
   background-repeat: no repeat;
   background-size: cover;
 }
@@ -137,6 +137,7 @@ footer{
 }
 .menu-btn{
   display: none;
+  margin: 4px;
 }
 /* Media Queries */
 @media(max-width:600px) {
@@ -212,6 +213,8 @@ section .image img {
   font-family: 'Tahoma';
   cursor: pointer;
   transform: rotate(0deg);
+
+  
 }
 .menu-btn.active {
   transform:rotate(45deg);
